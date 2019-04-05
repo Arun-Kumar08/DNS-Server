@@ -41,6 +41,13 @@ OS:  REDHAT Linux el7.0.
 
 
 
+
+
+
+
+
+
+
 Package & Conf files
 
 
@@ -55,6 +62,17 @@ Port:  53/TCP, 53/UDP
 Configuration Check utility: named-checkconf
 
 Zone file check utility: named-checkzone
+
+
+
+
+
+
+
+
+
+
+
 
 
 Basic Scenario: configure server.example.com as DNS server. It should resolve host names for other clients.
