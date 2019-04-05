@@ -34,7 +34,9 @@ LOCAL INFRASTRUCTURE USED
 
 
 MACHINE: DELL Inspiron 14   Laptop
+
 CONFIG:  Co re I3 2.00GHZ CPU, 4GB RAM, 1TB HDD
+
 OS:  REDHAT Linux el7.0.
 
 
@@ -43,10 +45,15 @@ Package & Conf files
 
 
 Package: Bind 9.9.4
+
 Configuration File:  /etc/named.conf
+
 Service & Daemon: named.service
+
 Port:  53/TCP, 53/UDP
+
 Configuration Check utility: named-checkconf
+
 Zone file check utility: named-checkzone
 
 
@@ -54,7 +61,9 @@ Basic Scenario: configure server.example.com as DNS server. It should resolve ho
 
 
 Domain = example.com
+
 IP = 10.0.2.12
+
 Hostname = server.example.com 
 
 
